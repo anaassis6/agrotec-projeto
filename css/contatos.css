@@ -1,0 +1,137 @@
+/*Contatos*/
+.contatos {
+    width: 100%;
+    height: calc(100vh - 225px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 12%;
+}
+
+.login-contato {
+    background-color: var(--laranja);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-contato h1 {
+    color: var(--branco);
+    font-size: 35px;
+    margin-top: 5px;
+    text-align: left;
+    letter-spacing: 1.25px;
+}
+
+.btn-contato {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 60%;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-coment {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-contato input[type="text"],
+.form-contato input[type="email"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+    width: 100%;
+    outline: none;
+    color: var(--preto);
+}
+
+.form-coment input[type="text"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+    width: 100%;
+    height: 100px;
+    outline: none;
+    color: var(--preto);
+    text-align: start;
+}
+
+.form-contato input[type="text"] {
+    margin-top: 20px;
+}
+
+.container-login {
+    width: 50%
+}
+
+.container-contatos {
+    width: 50%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.container-contatos p {
+    font-family: Be Vietnam Pro;
+    color: var(--branco);
+    font-size: 35px;
+}
+
+.container-contatos h1 {
+    color: var(--laranja-escuro);
+    font-size: 100px;
+    margin-left: 30px;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    height: 20%;
+}
+
+.titulo {
+    height: 20%;
+}
+
+.icon-contatos {
+    width: 75px;
+    height: 75px;
+}
+
+.email {
+    text-decoration: underline;
+    color: var(--branco);
+}
+
+.contatos hr {
+    height: 90%;
+    margin-top: 80px;
+    margin-right: 40px;
+}

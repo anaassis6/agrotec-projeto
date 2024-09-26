@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"');
+
+:root {
+  --laranja: #ff7724;
+  --laranja-escuro: #D9851E;
+  --branco: #FFFFFF;
+  --verde-claro: #8ADC0E;
+  --verde-escuro: #ABBF15;
+  --preto: #000000;
+}
+
+/*Tudo*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Cabeçalho*/
+header {
+  background-color: var(--laranja);
+  font-size: 50px;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  justify-content: center;
+}
+
+.inovacao {
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.linha-vertical {
+  height: 100px;
+  border-left: 2px solid;
+}
+
+.logo-header {
+  width: 150px;
+  height: 150px;
+}
+
+a {
+  color: var(--branco);
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+a:hover {
+  color: var(--verde-escuro);
+}
+
+.atual {
+  color: var(--verde-escuro);
+  text-decoration: underline;
+}
+
+/*Body*/
+.body {
+  background-image: url('../assets/img/imgFundo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue';
+  height: 100vh;
+}
+
+/*Rodape*/
+footer {
+  background-color: var(--laranja);
+  color: var(--branco);
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: 'Be Vietnam Pro';
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+
+.icon {
+  margin-left: 20px;
+  width: 55px;
+  height: 55px;
+}
+
+.copyright,
+.social-media,
+.privacy {
+  width: 33%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.copyright {
+  align-content: center;
+}
+
+.logo-footer {
+  width: 75px;
+  height: 75px;
+}

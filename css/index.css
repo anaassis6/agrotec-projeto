@@ -1,0 +1,12 @@
+.centro-body {
+    height: calc(135vh - 225px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-index {
+    text-align: center;
+    font-size: 135px;
+    color: var(--branco);
+}
