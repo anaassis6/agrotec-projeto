@@ -1,7 +1,7 @@
 /*Contatos*/
 .contatos {
     width: 100%;
-    height: calc(100vh - 225px);
+    height: calc(110vh - 225px);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,20 +11,20 @@
 
 .login-contato {
     background-color: var(--laranja);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     text-align: left;
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     margin-top: 80px;
-    margin-left: 30%;
+    margin-left: 20%;
     display: flex;
     flex-direction: column;
 }
 
 .login-contato h1 {
     color: var(--branco);
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 5px;
     text-align: left;
     letter-spacing: 1.25px;
@@ -33,15 +33,15 @@
 .btn-contato {
     background-color: var(--verde-claro);
     color: var(--branco);
-    padding: 15px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 60%;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 42px;
 }
 
 .form-contato {
@@ -61,17 +61,18 @@
 .form-contato input[type="text"],
 .form-contato input[type="email"] {
     padding: 15px;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
     border: 1px solid var(--branco);
     width: 100%;
     outline: none;
     color: var(--preto);
+    height: 20px;
 }
 
 .form-coment input[type="text"] {
     padding: 15px;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
     border: 1px solid var(--branco);
     width: 100%;
@@ -79,10 +80,12 @@
     outline: none;
     color: var(--preto);
     text-align: start;
+    height: 60px;
 }
 
 .form-contato input[type="text"] {
     margin-top: 20px;
+    
 }
 
 .container-login {
@@ -98,12 +101,12 @@
 .container-contatos p {
     font-family: Be Vietnam Pro;
     color: var(--branco);
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .container-contatos h1 {
     color: var(--laranja-escuro);
-    font-size: 100px;
+    font-size: 70px;
     margin-left: 30px;
 }
 
@@ -121,8 +124,8 @@
 }
 
 .icon-contatos {
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
 }
 
 .email {

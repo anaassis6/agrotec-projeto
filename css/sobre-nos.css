@@ -13,27 +13,27 @@
     width: 35%;
     display: flex;
     align-items: center;
-    height: calc(127vh - 150px);
+    height: calc(135vh - 150px);
 }
 
 .imagem {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .titulo-sb {
     color: var(--laranja-escuro);
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .texto-sb {
     color: var(--branco);
     font-family: 'Be Vietnam Pro';
     margin-left: 40px;
-    width: 90%;
-    font-size: 21px;
+    width: 80%;
+    font-size: 15px;
 }
